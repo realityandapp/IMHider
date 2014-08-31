@@ -4,7 +4,7 @@ imhider apk
 
 使用说明
 ---------------------
-请运行**imhider-samples** module
+请运行**app** module
 
 
 依赖库
