@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent" android:weightSum="1" android:orientation="vertical">
 
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="158dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="欢迎使用影壁保护您的个人隐私，让你的小秘密不为人知~~10秒内点击10次屏幕解锁哦~~"
+            android:id="@+id/textView"/>
+    <TextView
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="解锁倒计时："
+            android:id="@+id/textView2" android:layout_weight="0.88"/>
 </LinearLayout>
