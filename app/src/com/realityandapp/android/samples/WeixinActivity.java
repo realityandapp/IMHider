@@ -1,6 +1,7 @@
 package com.realityandapp.android.samples;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -37,7 +38,9 @@ public class WeixinActivity extends Activity {
     public void onBackPressed() {
         count++;
         if(count >= 10){
-            //TODO goto weixin
+            Intent i = new Intent();
+            i.setClassName("com.tencent.mm", "com.tencent.mm.ui.LauncherUI");
+            startActivity(i);
             finish();
         }
     }
