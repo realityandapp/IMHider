@@ -4,5 +4,6 @@
 	<string name="app_name">影壁</string>
 	<string name="action_settings">Settings</string>
 	<string name="hello_world">欢迎使用影壁</string>
+	<string name="weixin">WeChat</string>
 
 </resources>

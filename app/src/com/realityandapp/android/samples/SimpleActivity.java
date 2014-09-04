@@ -43,7 +43,7 @@ public class SimpleActivity extends Activity {
                                 }
                             }).create();
                 }
-                ShortcutsUtils.addShortcutToDesktop(SimpleActivity.this, WeixinActivity.class, "WeChat", R.drawable.ic_weixin);
+                ShortcutsUtils.addShortcutToDesktop(SimpleActivity.this, WeixinActivity.class, getResources().getString(R.string.weixin), R.drawable.ic_weixin);
             }
         });
     }
