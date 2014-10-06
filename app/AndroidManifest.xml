@@ -27,15 +27,13 @@
 			</intent-filter>
 		</activity>
         <activity android:name="SimpleActivity"/>
-        <activity android:name=".WeixinActivity">
+        <activity android:name=".WeixinActivity"
+                  android:configChanges="keyboardHidden|orientation" android:theme="@android:style/Theme.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity android:name=".WelcomeActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
         </activity>
 
     </application>
